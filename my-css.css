@@ -1,18 +1,19 @@
 html { 
 	height: 100%;
 	font-family: "Sans-serif";
+	font-size: 13px;
 }
 
 body {
 	overflow: hidden;
 	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 3fr 1fr;
 	min-height: 100%;
 	grid-template-areas:
-		"header header header" 
-		"main main main"
-		"footer footer footer";
+		"header" 
+		"main"
+		"footer";
 }
 
 header {
@@ -47,7 +48,6 @@ li {
 li a {
 	color: #000000;
 	text-decoration: none;
-	font-size: 12px;
 }
 
 li a:hover {
@@ -55,9 +55,17 @@ li a:hover {
 	text-decoration: underline;
 }
 
+header li a {
+	margin-top: 5px;
+}
+
+footer li a {
+	color: #717171;
+}
+
 form { padding: 5px; }
 
-input { width: 25em; }
+input { width: 35em; }
 
 button { 
 	width: 13em;
@@ -82,9 +90,19 @@ img {
 	margin-top: 20px; 
 	widht: 500px;
 }
+
 #buttons { 
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 	margin-top: 15px;
 }
+
+#buttonSignUp {
+	width: 8em;
+	background-color: #4285F4;
+	color: #FFFFFF;
+	border-radius: 2px;
+	margin-left: 7px;
+}
+
+#left { float: left; }
+#right { float: right; }
