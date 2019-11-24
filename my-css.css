@@ -57,7 +57,15 @@ li a:hover {
 
 form { padding: 5px; }
 input { width: 25em; }
-button { width: 13em; }
+
+button { 
+	width: 13em;
+	color: #717171;
+}
+
+button:hover {
+	color: #000000;
+}
 
 img {
 	display: block;
@@ -65,5 +73,13 @@ img {
 	margin-right: auto;
 }
 
-#search-box { margin-top: 20px; }
-#buttons { }
+#search-box { 
+	margin-top: 20px; 
+	widht: 500px;
+}
+#buttons { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
