@@ -1,5 +1,10 @@
-html { height: 100%; }
+html { 
+	height: 100%;
+	font-family: "Sans-serif";
+}
+
 body {
+	overflow: hidden;
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
 	grid-template-rows: 1fr 3fr 1fr;
@@ -39,6 +44,26 @@ li {
 	padding: 5px;
 }
 
+li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+li a:hover {
+	color: #717171;
+	text-decoration: underline;
+}
+
 form { padding: 5px; }
 input { width: 25em; }
 button { width: 13em; }
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search-box { margin-top: 20px; }
+#buttons { }
