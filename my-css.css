@@ -60,11 +60,14 @@ input { width: 25em; }
 
 button { 
 	width: 13em;
+	padding: 5px;
 	color: #717171;
+	border: none;
 }
 
 button:hover {
 	color: #000000;
+	border: 1px solid #717171;
 }
 
 img {
